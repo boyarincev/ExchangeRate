@@ -135,7 +135,7 @@
     </Compile>
     <Compile Include="Models\Currency.cs" />
     <Compile Include="Models\ExchangeRatesContainer.cs" />
-    <Compile Include="Models\ExchangeRateValue.cs" />
+    <Compile Include="Models\ExchangeRateItem.cs" />
     <Compile Include="ViewModel\HomeIndexViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
