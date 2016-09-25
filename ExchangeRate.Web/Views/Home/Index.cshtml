@@ -1,0 +1,20 @@
+﻿@using ExchangeRate.Web.ViewModel
+@model HomeIndexViewModel
+@{
+    ViewBag.Title = "Index";
+}
+
+@section Scripts {
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script>
+        $(function () {
+            app.init("@Url.Action("GetExhangeRates", "ExchangeRate")", $("#months"), $("#currencies"), $("#container"));
+        });
+    </script>
+}
+
+<h2>Index</h2>
+
+@Html.DropDownList("months", Model.Months)
+@Html.DropDownList("currencies", Model.Currencies)
+<div id="container"></div>
