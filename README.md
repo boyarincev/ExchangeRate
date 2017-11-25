@@ -1,5 +1,5 @@
 # ExchangeRate
-Exchange Rate - test ASP.NET MVC 5 application for job interview
+Exchange Rate - test ASP.NET MVC 5 application.
 
 ## Техническое задание
 
